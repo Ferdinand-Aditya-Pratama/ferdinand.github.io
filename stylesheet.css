@@ -1,22 +1,21 @@
-html,
-body,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-
-div {
-	margin: 0;
-	padding: 0;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: "Lucida Grande";
+}
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 body {
 	font-family: "Avenir Next";
@@ -136,7 +135,7 @@ header {
 .body-main {
 	padding: 50px 0px 50px 0px;
 	height: 200px;
-	background-image: url("https://github.com/Ferdinand-Aditya-Pratama/I17/blob/master/img1.jpg");
+	background-image: url("img1.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
